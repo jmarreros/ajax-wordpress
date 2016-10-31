@@ -1,4 +1,4 @@
-# Ajax-WordPress
+# Ejemplo de Ajax en WordPress
 
 Código de ejemplo aplicado sobre el theme Twentyfifteen.
 
