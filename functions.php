@@ -1,4 +1,4 @@
-//Insertar Javascript js
+//Insertar Javascript js y enviar ruta admin-ajax.php
 add_action('wp_enqueue_scripts', 'dcms_insertar_js');
 
 function dcms_insertar_js(){
@@ -11,7 +11,7 @@ function dcms_insertar_js(){
 	wp_localize_script('dcms_miscript','dcms_vars',['ajaxurl'=>admin_url('admin-ajax.php')]);
 }
 
-//Devolver datos 
+//Devolver datos a archivo js
 add_action('wp_ajax_nopriv_dcms_ajax_readmore','dcms_enviar_contenido');
 add_action('wp_ajax_dcms_ajax_readmore','dcms_enviar_contenido');
 
