@@ -25,6 +25,6 @@ function dcms_enviar_contenido()
 	
 	echo $content;
 
-	die();
+	wp_die();
 }
 
